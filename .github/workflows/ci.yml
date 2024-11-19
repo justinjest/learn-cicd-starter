@@ -21,4 +21,4 @@ jobs:
       - name: Check version
         run: go version
       - name: tests
-        run: go test ./...
+        run: go test ./... -cover
